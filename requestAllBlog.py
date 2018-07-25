@@ -25,8 +25,6 @@ for pageIndex in range(1, MAX_PAGE_NUM, 1):
 
     # 具体解析
     bbsUL = bbsBlock.children
-
-
     for child in bbsUL:
         if child.name == "li":
             className = child.get('class')
