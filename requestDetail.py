@@ -1,7 +1,5 @@
 import urllib.request
 from bs4 import BeautifulSoup
-
-
 def requestDetailBlog(url):
     #print(url)
     page = urllib.request.urlopen(url)
